@@ -20,7 +20,7 @@ export default function Navbar() {
             {/* contact button & dropdown */}
             <div className='flex gap-x-10'>
                 <div>
-                    <button className='py-5 px-10 bg-blue-700 text-white font-semibold hover:bg-amber-400 transition-colors'>
+                    <button className='hidden lg:block py-5 px-5 lg:px-10 bg-blue-700 text-white font-semibold hover:bg-amber-400 transition-colors shadow-lg'>
                         <Link to='/contact'>CONTACT ME</Link>
                     </button>
                 </div>
